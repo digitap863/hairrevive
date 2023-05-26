@@ -33,7 +33,8 @@
 	}
 
 	.quote-form {
-		padding: 40px 20px 49px;
+		/* padding: 40px 20px 49px;*/
+		padding: 22px 14px 20px;
 	}
 
 	.quote-form h2 {

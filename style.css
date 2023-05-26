@@ -847,7 +847,7 @@ body.boxed-v #wrapper {
 #header {
 	z-index: 2;
 	position: relative;
-	padding: 34px 0 70px;
+	padding: 22px 0 20px;
 }
 
 #header.sticky #nav {
