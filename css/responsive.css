@@ -93,6 +93,7 @@
 	#header.sticky {
 		top: 0;
 		left: 0;
+		background: #e5dedeeb;
 		right: 0;
 		position: fixed;
 	}
