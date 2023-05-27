@@ -633,6 +633,21 @@ img.aligncenter {
 	background-size: cover;
 }
 
+.bg-img-full2 {
+	background-repeat: no-repeat;
+	/* background-position: center;*/
+	background-size: cover;
+}
+
+
+@media (max-width:601px) {
+	.bg-img-full2 {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
 .bg-img-parallax {
 	background-attachment: fixed;
 }
