@@ -30,13 +30,29 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/color.css">
 
+		<!--Number Counter JS-->
+		
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 		<!--Testimonial slider css-->
 		 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
 		<link rel="stylesheet" href="template7.css">
+<style>
+.main-banner {
+background-image: url(images/banner-2.png);
+}
 
+@media (max-width:767px) {
+	.main-banner {
+background-image: url(images/PHONE.png);
+}
+}
+</style>
 </head>
 <body>
 	<div id="wrapper">
@@ -99,7 +115,7 @@
 		<!-- main content wrapping section start here -->
 		<main id="main">
 			<!-- main banner section start here -->
-			<section class="bg-img-full main-banner bg-img-parallax2" style="background-image: url(images/banner\ 2.png);" data-scroll-index="0">
+			<section class="bg-img-full main-banner bg-img-parallax2" style="" data-scroll-index="0">
 				<span></span>
 				<div class="container">
 					<div class="row">
@@ -179,10 +195,10 @@
 			<section class="counter-section text-center bg-img-full2 pad-top-lg pad-bottom-lg bg-img-parallax quote-section" style="background-image: url(images/parallaximg.jpg);">
 				<span class="overlay"></span>
 				
-				<div class="container pad-top-xs">
-					<div class="row">
+				 <div class="container pad-top-xs">
+				<!--	<div class="row">
 						<div class="co-xs-12 col-sm-3 pad-bottom-xs">
-							<span class="counter main-color2">500</span>
+							<span class="counter main-color2">500</span><span style="display:inline">+</span>
 							<span class="txt text-uppercase" style="color:white">patients</span>
 						</div>
 						<div class="co-xs-12 col-sm-3 pad-bottom-xs">
@@ -197,8 +213,40 @@
 							<span class="counter main-color2">6</span>
 							<span class="txt text-uppercase" style="color:white">branches</span>
 						</div>
-					</div>
-				</div>
+					</div> -->
+
+					
+					  
+						
+						<div class="row">
+						  <div class="co-xs-12 col-sm-3 pad-bottom-xs">
+							<h2 data-max="500" style="font-size: 60px;margin: 0px;line-height: 80px;font-family:'open sans',sans-serif;font-weight:600">+ </h2>
+							<span class="text-uppercase" style="color:white;font-size:16.5px">patients</span>
+							
+						  </div>
+
+						  <div class="co-xs-12 col-sm-3 pad-bottom-xs">
+							<h2 data-max="498" style="font-size: 60px;margin: 0px;line-height: 80px;font-family:'open sans',sans-serif;font-weight:600">+ </h2>
+							<span class="text-uppercase" style="color:white;font-size:16.5px">Success Rate</span>
+						  </div>
+
+						  <div class="co-xs-12 col-sm-3 pad-bottom-xs">
+							<h2 data-max="50" style="font-size: 60px;margin: 0px;line-height: 80px;font-family:'open sans',sans-serif;font-weight:600">+ </h2>
+							<span class="text-uppercase" style="color:white;font-size:16.5px">Solutions</span>
+						  </div>
+
+						  <div class="co-xs-12 col-sm-3 pad-bottom-xs">	
+							<h2 data-max="6" id="test" style="font-size: 60px;margin: 0px;line-height: 80px;font-family:'open sans',sans-serif;font-weight:600"> </h2>
+							<span class="text-uppercase" style="color:white;font-size:16.5px">Branches</span>
+						  </div>
+
+						</div> 
+					  
+					  
+				</div> 
+
+			
+			  
 			</section>
 			<!-- counter section end here -->
 			<!-- services section starts here -->
@@ -309,12 +357,10 @@
 						<div class="pic">
 						  <img src="">
 						</div>
-						<p class="description" style="font-family:'open sans',sans-serif ;font-size: medium;">
+						<p class="description" style="font-family:'open sans',sans-serif ;font-size: medium;color:black">
 							I have been using hair replacement system for last 3 years and have gone to several places for service. But hair revive was a complete surprise for me. It was the first time I saw someone not trying to sell but satisfy customers. 
 							They even provide hair spa with patch service. I was a bit apprehensive about the price then but they charged lesser than others!
-							<p style="font-family:'open sans',sans-serif ;font-size: medium;"> Again a surprise. The quality of their hair systems is also awsome! Completely worth ever rupee..</p>
 						</p>
-
 						<h4 style="font-family:'Ubuntu', Arial, sans-serif;" class="title">~ Renjith A.K</h4>
 						
 					  </div>
@@ -323,12 +369,12 @@
 						<div class="pic">
 						  <img src="">
 						</div>
-						<p class="description" style="font-family:'open sans',sans-serif ;font-size: medium;">
+						<p class="description" style="font-family:'open sans',sans-serif ;font-size: medium;color:black">
 							<p style="font-family:'open sans',sans-serif ;font-size: medium;">I have been using Hair Fixing for 8 years. Hair revive center is doing the service in a much better way than the center I served before. 
-							Their specialty is the technical team with a lot of experience. 
-							<p style="font-family:'open sans',sans-serif ;font-size: medium;">Similarly, they pay special attention to cleanliness. Here you get a very premium type service at a low price.</p>
-							</p>
-							<p style="font-family:'open sans',sans-serif ;font-size: medium;">For the amount we spend, we get good products from hair revive.</p>							
+							
+							<p style="font-family:'open sans',sans-serif ;font-size: medium;">Similarly, they pay special attention to cleanliness. Here you get a very premium type service at a low price.
+							For the amount we spend, we get good products from hair revive.</p>							
+						</p>
 						</p>
 						<h4 style="font-family:'Ubuntu', Arial, sans-serif;" >~ Amith Mathew</h4>
 					  </div>
@@ -338,9 +384,9 @@
 						  <img src="">
 						</div>
 						<p class="description">
-							<p style="font-family:'open sans',sans-serif ;font-size: medium;">I had the hair transplant procedure done in AUGUST at HAIR REVIVE Kochi. The staff were friendly and very professional.</p>
-							<p style="font-family:'open sans',sans-serif ;font-size: medium;">The facility is modern and super hygienic. The Doctors and technicians  were super friendly and made me comfortable before and during transplantation.</p>
-							<p style="font-family:'open sans',sans-serif ;font-size: medium;">After the procedure, I had regular follow up calls guiding me through the post procedure care. A big thank you to the entire team at HAIR REVIVE.</p>
+							<p style="font-family:'open sans',sans-serif ;font-size: medium;color:black">I had the hair transplant procedure done in AUGUST at HAIR REVIVE Kochi. The staff were friendly and very professional.</p>
+							<p style="font-family:'open sans',sans-serif ;font-size: medium;color:black">The facility is modern and super hygienic. The Doctors and technicians  were super friendly and made me comfortable before and during transplantation.
+							A big thank you to the entire team at HAIR REVIVE.</p>
 						</p>
 						<h4 style="font-family:'Ubuntu', Arial, sans-serif;" class="title">~ Anoop K.P</h4>
 					  </div>
@@ -433,6 +479,61 @@
 		  autoPlay: true
 		});
 	  });
+	</script>
+
+	<script>
+
+function inVisible(element) {
+  //Checking if the element is
+  //visible in the viewport
+  var WindowTop = $(window).scrollTop();
+  var WindowBottom = WindowTop + $(window).height();
+  var ElementTop = element.offset().top;
+  var ElementBottom = ElementTop + element.height();
+  //animating the element if it is
+  //visible in the viewport
+  if ((ElementBottom <= WindowBottom) && ElementTop >= WindowTop)
+    animate(element);
+}
+
+function animate(element) {
+  //Animating the element if not animated before
+  if (!element.hasClass('ms-animated')) {
+    var maxval = element.data('max');
+    var html = element.html();
+    element.addClass("ms-animated");
+    $({
+      countNum: element.html()
+    }).animate({
+      countNum: maxval
+    }, {
+      //duration 5 seconds
+      duration: 5000,
+      easing: 'linear',
+      step: function() {
+        element.html(Math.floor(this.countNum) + html);
+      },
+      complete: function() {
+        element.html(this.countNum + html);
+      }
+    });
+  }
+
+}
+
+//When the document is ready
+$(function() {
+  //This is triggered when the
+  //user scrolls the page
+  $(window).scroll(function() {
+    //Checking if each items to animate are 
+    //visible in the viewport
+    $("h2[data-max]").each(function() {
+      inVisible($(this));
+    });
+  })
+});
+
 	</script>
 </body>
 </html>
